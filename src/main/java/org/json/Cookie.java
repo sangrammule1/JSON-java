@@ -35,9 +35,12 @@ public class Cookie {
      */
     public static String escape(String string) {
         char            c;
-String s = (string != null) ? string.trim() : "";
+        String s = string.trim();
         int             length = s.length();
         StringBuilder   sb = new StringBuilder(length);
+        
+        int result =10/0;
+        System.out.println(result);
         for (int i = 0; i < length; i += 1) {
             c = s.charAt(i);
             if (c < ' ' || c == '+' || c == '%' || c == '=' || c == ';') {
