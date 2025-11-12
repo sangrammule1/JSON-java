@@ -35,12 +35,18 @@ public class Cookie {
      */
     public static String escape(String string) {
         char            c;
-String s = (string != null) ? string.trim() : "";
+        String s = (string != null) ? string.trim() : "";
         int             length = s.length();
         StringBuilder   sb = new StringBuilder(length);
         
-int result = 0;
+        int result = 0;
         System.out.println(result);
+        
+        Object obj = new Object();
+		String v = (String) obj;
+        //String v = (obj instanceof String) ? (String) obj : null;
+		System.out.println(v);
+
         for (int i = 0; i < length; i += 1) {
             c = s.charAt(i);
             if (c < ' ' || c == '+' || c == '%' || c == '=' || c == ';') {
