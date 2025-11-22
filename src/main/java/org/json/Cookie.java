@@ -43,7 +43,7 @@ int result = 0;
         System.out.println(result);
         
         Object obj = new Object();
-        String v = (String) obj;
+String v = (obj instanceof String) ? (String) obj : "";
         //String v = (obj instanceof String) ? (String) obj : null;
 		System.out.println(v);
 
