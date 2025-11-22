@@ -35,15 +35,15 @@ public class Cookie {
      */
     public static String escape(String string) {
         char            c;
-        String s = (string != null) ? string.trim() : "";
+        String s = string;
         int             length = s.length();
         StringBuilder   sb = new StringBuilder(length);
         
-        int result = 0;
+        int result = length/0;
         System.out.println(result);
         
         Object obj = new Object();
-String v = (obj instanceof String) ? (String) obj : null;
+        String v = (String) obj;
         //String v = (obj instanceof String) ? (String) obj : null;
 		System.out.println(v);
 
