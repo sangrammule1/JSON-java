@@ -39,7 +39,7 @@ public class Cookie {
         int             length = s.length();
         StringBuilder   sb = new StringBuilder(length);
         
-        int result = length/0;
+int result = 0;
         System.out.println(result);
         
         Object obj = new Object();
