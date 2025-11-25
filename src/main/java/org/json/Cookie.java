@@ -43,7 +43,7 @@ int result = (length == 0) ? 0 : 10/length;
         System.out.println(result);
         
         Object obj = new Object();
-        String v = (String) obj;
+String v = (String) null;
         //String v = (obj instanceof String) ? (String) obj : null;
 		System.out.println(v);
 
