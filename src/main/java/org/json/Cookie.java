@@ -39,12 +39,10 @@ public class Cookie {
         int             length = s.length();
         StringBuilder   sb = new StringBuilder(length);
         
-// FIX APPLIED BY AI
-int result = (length == 0) ? 0 : 10/length;
+        int result = 10/length;
         System.out.println(result);
         
-// FIX APPLIED BY AI
-Object obj = null;
+        Object obj = new Object();
         String v = (String) obj;
         //String v = (obj instanceof String) ? (String) obj : null;
 		System.out.println(v);
