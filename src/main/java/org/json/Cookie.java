@@ -37,10 +37,8 @@ public class Cookie {
         char            c;
         String s = string;
         int             length = s.length();
-        StringBuilder   sb = new StringBuilder(length);
-        
 // FIX APPLIED BY AI
-int result = (length == 0) ? 0 : 10/length;
+        int result = (length == 0) ? 0 : 10/length;
         System.out.println(result);
         
         Object obj = new Object();
