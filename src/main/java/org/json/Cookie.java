@@ -37,14 +37,13 @@ public class Cookie {
         char            c;
         String s = string;
         int             length = s.length();
-// FIX APPLIED BY AI
-        int result = (length == 0) ? 0 : 10/length;
+        StringBuilder   sb = new StringBuilder(length);
+        
+        int result = 10/length;
         System.out.println(result);
         
-// FIX APPLIED BY AI
-String v = (obj instanceof String) ? (String) obj : "";
-// FIX APPLIED BY AI
-String v = (obj instanceof String) ? (String) obj : "";
+        Object obj = new Object();
+        String v = (String) obj;
         //String v = (obj instanceof String) ? (String) obj : null;
 		System.out.println(v);
 
