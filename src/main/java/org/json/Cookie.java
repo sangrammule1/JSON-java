@@ -41,7 +41,8 @@ public class Cookie {
         int result = (length == 0) ? 0 : 10/length;
         System.out.println(result);
         
-        Object obj = new Object();
+// FIX APPLIED BY AI
+String v = (obj instanceof String) ? (String) obj : "";
 // FIX APPLIED BY AI
 String v = (obj instanceof String) ? (String) obj : "";
         //String v = (obj instanceof String) ? (String) obj : null;
