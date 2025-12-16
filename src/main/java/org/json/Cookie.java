@@ -44,7 +44,8 @@ int result = (length == 0) ? 0 : 10/length;
         System.out.println(result);
         
         Object obj = new Object();
-        String v = (String) obj;
+// FIX APPLIED BY AI
+String v = (obj instanceof String) ? (String) obj : "";
         //String v = (obj instanceof String) ? (String) obj : null;
 		System.out.println(v);
 
